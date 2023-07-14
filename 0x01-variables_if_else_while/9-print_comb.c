@@ -1,14 +1,12 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
+
 /**
  * main - prints all possible combinations of single-digit numbers
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-int n;
+	int n;
 
 	for (n = 48; n < 58; n++)
 	{
@@ -21,5 +19,4 @@ int n;
 	}
 	putchar('\n');
 	return (0);
-
 }
