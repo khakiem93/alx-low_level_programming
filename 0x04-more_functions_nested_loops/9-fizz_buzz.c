@@ -27,11 +27,15 @@ int main(void)
 		{
 			printf("Buzz");
 		}
-		else
+		else if (n == 1)
 		{
 			printf("%d", n);
+
 		}
-		printf(" ");
+		else
+		{
+			printf(" %d", n);
+		}
 
 }
 	return (0);
