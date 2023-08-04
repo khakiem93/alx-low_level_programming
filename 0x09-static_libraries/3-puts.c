@@ -1,14 +1,13 @@
 #include "main.h"
-void _puts(char *str)
-#include<stdio.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-int main(void)
+* _puts - Custom function to print a string to the standard output.
+* @str: The string to be printed.
+*/
+void _puts(char *str)
 {
-puts("\"Programming is like building a multilingual puzzle");
-return (0);
+	while (*str != '\0')
+	{
+		_putchar (*str);
+		str++;
+	}
 }
-
